@@ -5,7 +5,6 @@
   "name": "Gate Addon",
   "description": "A Meteor Client addon for the (gamster) gate network.",
   "authors": [
-    "seasnail",
     "OsakiTsukiko"
   ],
   "contact": {
