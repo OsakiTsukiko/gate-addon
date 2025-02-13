@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "gate-addon",
+  "version": "${version}",
+  "name": "Gate Addon",
+  "description": "A Meteor Client addon for the (gamster) gate network.",
+  "authors": [
+    "seasnail",
+    "OsakiTsukiko"
+  ],
+  "contact": {
+    "repo": "https://github.com/OsakiTsukiko/gate-addon"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "gate.addon.GateAddon"
+    ]
+  },
+  "mixins": [
+    "gate-addon.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "66,245,245"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
